@@ -8,7 +8,7 @@ function App() {
       .then(respuesta=>respuesta.json())
       .then(data=> setNaves(data))
   },[])
-  console.log(naves);
+
   return (
     <div className="App">
       <p></p>
